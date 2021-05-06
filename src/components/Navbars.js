@@ -17,7 +17,7 @@ const Navbars = () => {
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
               <LinkContainer to="about">
-                <Nav.Link>About</Nav.Link>{" "}
+                <Nav.Link>About</Nav.Link>
               </LinkContainer>
               <LinkContainer to="contact">
                 <Nav.Link href="#contact">Contact</Nav.Link>
@@ -37,7 +37,7 @@ const Navbars = () => {
               </NavDropdown>
             </Nav>
             <Nav className="ml-auto">
-              <LinkContainer to="/contact">
+              <LinkContainer to="/login">
                 <Nav.Link>
                   <i className="fas fa-user px-1"></i>Sign-Up
                 </Nav.Link>
