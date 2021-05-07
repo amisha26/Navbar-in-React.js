@@ -12,7 +12,7 @@ const Navbars = () => {
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <LinkContainer to="/home">
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
@@ -35,8 +35,6 @@ const Navbars = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-            </Nav>
-            <Nav className="ml-auto">
               <LinkContainer to="/login">
                 <Nav.Link>
                   <i className="fas fa-user px-1"></i>Sign-Up
